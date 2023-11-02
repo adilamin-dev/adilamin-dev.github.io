@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ############## Utility Classes ################# */
+
+.my-p-text{
+    font-size: 1.6rem;
+}
+
+.m-t-c{
+    color: rgb(53, 53, 53);
+}
+
+.c-w{
+    color: #ffffff;
+}
+
+.my-p-color{
+    color: rgb(53, 53, 53);
+}
+
+/* ###################### Header Styling ###################### */
+
+/* .my-header-content{
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* Header Image Style */
+
+.adeelwilds-img{
+    height: 190px;
+    object-fit: cover;
+}
+
+/* Header Info Style */
+
+.my-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 3em;
+}
+
+.my-name-text{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.my-info-text{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.my-info-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.my-social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.s-icon{
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 3.4rem;
+    margin: 0.6rem;
+    transition: all 0.3s ease-in;
+}
+
+.s-icon:link{
+    color: #ffffff;
+}
+
+.s-icon:visited{
+    color: #ffffff;
+}
+
+.s-icon:hover{
+    background-color: #212529;
+    color: #25e98d;
+}
+
+/* ############ Portfolio Main Styling ################# */
+
+.my-p-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.p-item-img{
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ######################### Media queries ########################## */
+
+
+@media (max-width: 1024px){
+}
+
+
+@media (max-width: 991px){
+    
+    
+}
+
+@media (max-width: 841px){
+
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 575px){
+    .my-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 3em;
+    }
+
+    .my-info-wrap{
+        margin-top: 2rem;
+    }
+
+    .my-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-p-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .p-item-img{
+        margin-bottom: 1rem;
+        height: 340px;
+    }
+
+}
+
+@media (max-width: 414px){
+    .p-item-img{
+        margin-bottom: 1rem;
+        height: 370px;
+    }
+}
+
+@media (max-width: 322px){
+    .p-item-img{
+        margin-bottom: 1rem;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 393px){
+
+}
